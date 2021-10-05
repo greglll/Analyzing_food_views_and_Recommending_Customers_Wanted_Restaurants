@@ -11,4 +11,4 @@ fig1. After re-training BERT model by the Beijing restaurant views dataset with 
 fig2. After re-training another BERT model by the Beijing restaurant views dataset with two labels(positive and negative),we use BERT to test the validation dataset. Result shows high accuracy on the positive and negative labels. The total accuracy is 83.30%.
 
 <img src="https://github.com/greglll/Analyzing_food_views_and_Recommending_Customers_Wanted_Restaurants/blob/master/heatmap_eztable_test_y_2X2_0922.png" width="30%" height="30%">
-fig3. Because of the high accuracy of the confusion-matrix heatmap, we decide to use the re-train BERT model with two labels(positive and negative). we use BERT to test the EZtable dataset which we have scraped online. The total accuracy is 92.64%.
+fig3. Because of the high accuracy of the fig2 heatmap, we decide to use the re-train BERT model with two labels(positive and negative). we use BERT to test the EZtable dataset which we have scraped online. The total accuracy is 92.64%.

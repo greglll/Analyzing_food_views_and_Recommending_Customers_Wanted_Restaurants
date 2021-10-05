@@ -5,3 +5,4 @@ We use Python to scrape over 500,000 customer reviews from restaurant review web
 https://honestreview.herokuapp.com/
 
 ![image](https://github.com/greglll/Analyzing_food_views_and_Recommending_Customers_Wanted_Restaurants/blob/master/heatmap_test_y_3X3_0922.png)
+fig1. After re-training by three labels(positive, neutral, and negative), we use BERT to test the validation dataset. Result shows high accuracy on the positive and negative labels. But there are uncertain when validating neutral labels.
